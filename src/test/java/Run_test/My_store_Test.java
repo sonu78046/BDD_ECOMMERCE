@@ -7,7 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(features={"F:\\java\\BDD\\ECOMMERCE_AUTOMATION\\src\\test\\java\\Features"}
-,glue={"Steps"}
+,glue={"Steps","Utilities"}
 ,plugin = {"pretty", "html:target/cucumber"},
 tags ={"@tag1"},
 monochrome = true

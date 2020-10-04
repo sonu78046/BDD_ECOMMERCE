@@ -28,4 +28,7 @@ Feature: My store application scenarion
     Then I enter email id for signup
     And go to Create account page
     And Select the name tile from radio button
-    And Fill the First_name last_name and pass
+    And Fill the First_name last_name pass and DOB
+    And Validate checkbox Text
+    Then Fill the Address detail
+    And Click on submit
