@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+<Values>
+	<Personal_deatils>
+		<First_name>Sonu</First_name>
+		<Last_name>Kumar</Last_name>
+		<Email>abc7@gmail.com</Email>
+		<Password>Sonu@123</Password>
+	</Personal_deatils>
+	<DOB>
+		<Date>10</Date>
+		<Month_No>6</Month_No>
+		<Year>2000</Year>
+	</DOB>
+	<Address>
+		<Company>Eclipse_hub</Company>
+		<Address1>400 N US HIGHWAY 1 , TEQUESTA, FL</Address1>
+		<City>Tequesta</City>
+		<state>Florida</state>
+		<Postcode>33469</Postcode>
+		<Country>United States</Country>
+		<Mobile>8504881234</Mobile>
+		<Addr_tag>Home Adddress</Addr_tag>
+	</Address>
+</Values>

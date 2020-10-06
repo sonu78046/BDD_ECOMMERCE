@@ -18,8 +18,7 @@
 #Sample Feature Definition Template
 @tag
 Feature: My store application scenarion
-
-  @tag1
+@tag1
   Scenario: signup in application
     Given I open my_store application
     When I click on sign_in button
@@ -32,3 +31,15 @@ Feature: My store application scenarion
     And Validate checkbox Text
     Then Fill the Address detail
     And Click on submit
+    Then Vrify the login user name
+    And Logout From Application
+  @tag1  
+  Scenario: Search Product
+  	Given user Registration is done
+  	And redirect to application homepage Url
+  	Then I click on sign_in button again
+    And Scroll down the webpage 
+  	Then I login application with Registerd userName and Password
+  	And Vrify the loged user name 
+    When I search for product
+    Then i will get the Searched product list
